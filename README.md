@@ -11,7 +11,7 @@ This project implements a RESTful API in .NET 9 to solve the classic Water Bucke
 ### 1. Clone the Repository
 
 ```bash
-git clone
+git clone https://github.com/alexisdjgoyo/WaterBucketChallengeApi.git
 cd WaterBucketChallengeApi
 ```
 
