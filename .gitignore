@@ -1,0 +1,69 @@
+###################################
+# Generales
+###################################
+[Bb]in/
+[Oo]bj/
+*.log
+*.vspscc
+*.vssscc
+*.bak
+*.suo
+*.user
+*.useros
+*.tlb
+*.tlh
+*.tmp
+*.rxlog
+# Archivos de paquetes NuGet
+/packages/
+
+###################################
+# Directorios de Herramientas .NET
+###################################
+.vs/
+.vspscc
+.vssscc
+.gitattributes
+.gitmodules
+.nuget/
+appsettings.Development.json # A veces se ignora para no exponer claves de desarrollo.
+
+###################################
+# Paquetes y Caché de Herramientas
+###################################
+# Herramientas globales de dotnet (como dotnet-ef)
+.dotnet/
+# Directorio de NuGet en el proyecto
+*.nupkg
+# Directorio de Restauración de .NET (si no es el predeterminado)
+.tools/
+
+###################################
+# Entornos de Desarrollo (VS Code, Rider, Visual Studio)
+###################################
+# Visual Studio
+*.opensdf
+*.docstates
+*.vsp
+*._*
+[Ss]ource/[Cc]ontrol/
+[Bb]uild/[Ll]og/
+*.resharper
+*.dotcover
+*.codeclones
+# VS Code
+.vscode/
+
+###################################
+# Pruebas
+###################################
+TestResults/
+# Cobertura de código
+*.coverage
+*.trx
+
+###################################
+# Docker
+###################################
+docker-compose.vs.debug.g.yml
+docker-compose.vs.release.g.yml

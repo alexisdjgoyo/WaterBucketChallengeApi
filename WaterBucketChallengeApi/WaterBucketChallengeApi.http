@@ -1,0 +1,6 @@
+@WaterBucketChallengeApi_HostAddress = http://localhost:5043
+
+GET {{WaterBucketChallengeApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
