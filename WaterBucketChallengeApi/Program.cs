@@ -21,3 +21,6 @@ app.UseHttpsRedirection();
 
 app.MapControllers();
 app.Run();
+
+// Hacemos la clase Program pública para que sea accesible desde el proyecto de pruebas de integración.
+public partial class Program { }

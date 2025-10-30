@@ -6,7 +6,7 @@ using WaterBucketChallengeApi.Services;
 
 namespace WaterBucketChallengeApi.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/solve")]
     [ApiController]
     public class WaterBucketController : ControllerBase
     {
