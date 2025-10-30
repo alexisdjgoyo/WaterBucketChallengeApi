@@ -19,6 +19,7 @@ cd WaterBucketChallengeApi/WaterBucketChallengeApi
 ```bash
 dotnet run
 ```
+#### Go to [http://localhost:5043/swagger/](http://localhost:5043/swagger/) to view swagger documentation and test the available endpoint.
 
 ### 3. Testing
 
